@@ -1,11 +1,11 @@
-package com.idcard.hs;
+package com.xx;
 
 import android.util.Log;
 
 /**
  * @FileName: CreateOrder
  * @Author: yang
- * @Description: 创建订单
+ * @Description: 鍒涘缓璁㈠崟
  * @History:
  */
 public class CreateOrder implements OrderStateInterface {
@@ -19,7 +19,7 @@ public class CreateOrder implements OrderStateInterface {
     @Override
     public void pay() {
         //todo doing payment sth
-        Log.i(TAG,"已付款，等待发货");
+        Log.i(TAG,"宸蹭粯娆撅紝绛夊緟鍙戣揣");
         order.setOrderState(new WaitingDeliverOrder(order));
     }
 
