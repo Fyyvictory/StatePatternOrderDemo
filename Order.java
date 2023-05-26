@@ -1,4 +1,4 @@
-package com.idcard.hs;
+package com.xx;
 
 /**
  * @FileName: Order
