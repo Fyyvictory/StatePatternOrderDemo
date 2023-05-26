@@ -1,9 +1,9 @@
-package com.idcard.hs;
+package com.xx;
 
 /**
  * @FileName: OrderStateInterface
  * @Author: yang
- * @Description:¶©µ¥×´Ì¬½Ó¿Ú
+ * @Description:è®¢å•çŠ¶æ€æ¥å£
  * @History:
  */
 interface OrderStateInterface {
@@ -11,22 +11,22 @@ interface OrderStateInterface {
     String TAG = "OrderStateInterface";
 
     /**
-     * Ö§¸¶
+     * æ”¯ä»˜
      */
     void pay();
 
     /**
-     * ·¢»õ
+     * å‘è´§
      */
     void deliver();
 
     /**
-     * Ç©ÊÕ
+     * ç­¾æ”¶
      */
     void sign();
 
     /**
-     * ¶©µ¥Íê³É
+     * è®¢å•å®Œæˆ
      */
     void completeOrder();
 }
