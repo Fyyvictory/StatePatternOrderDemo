@@ -1,9 +1,9 @@
 package com.idcard.hs;
 
 /**
- * @FileName: ContextHolder
+ * @FileName: Order
  * @Author: yang
- * @Description: 订单--即状态的宿主类、有委托的思想
+ * @Description: 璁㈠崟--鍗崇姸鎬佺殑瀹夸富绫汇�佹湁濮旀墭鐨勬�濇兂
  * @History:
  */
 class Order {
@@ -23,28 +23,28 @@ class Order {
     }
 
     /**
-     * 支付
+     * 鏀粯
      */
     void pay() {
         orderState.pay();
     }
 
     /**
-     * 发货
+     * 鍙戣揣
      */
     void deliver() {
         orderState.deliver();
     }
 
     /**
-     * 签收
+     * 绛炬敹
      */
     void sign() {
         orderState.sign();
     }
 
     /**
-     * 订单完成
+     * 璁㈠崟瀹屾垚
      */
     void completeOrder() {
         orderState.completeOrder();
