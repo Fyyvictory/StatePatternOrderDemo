@@ -1,11 +1,11 @@
-package com.idcard.hs;
+package com.xx;
 
 import android.util.Log;
 
 /**
  * @FileName: WaitingDeliverOrder
  * @Author: yang
- * @Description: ¶©µ¥·¢»õ×´Ì¬
+ * @Description: è®¢å•å‘è´§çŠ¶æ€
  * @History:
  */
 class WaitingDeliverOrder implements OrderStateInterface {
@@ -24,7 +24,7 @@ class WaitingDeliverOrder implements OrderStateInterface {
     @Override
     public void deliver() {
         //todo do deliver sth
-        Log.i(TAG, "ÒÑ·¢»õ£¬µÈ´ıÇ©ÊÕ");
+        Log.i(TAG, "å·²å‘è´§ï¼Œç­‰å¾…ç­¾æ”¶");
         order.setOrderState(new WaitingSignOrder(order));
     }
 
