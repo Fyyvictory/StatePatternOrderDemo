@@ -1,11 +1,11 @@
-package com.idcard.hs;
+package com.xx;
 
 import android.util.Log;
 
 /**
  * @FileName: CompleteOrder
  * @Author: yang
- * @Description: 订单完结
+ * @Description: 璁㈠崟瀹岀粨
  * @History:
  */
 public class CompleteOrder implements OrderStateInterface {
@@ -33,6 +33,6 @@ public class CompleteOrder implements OrderStateInterface {
     @Override
     public void completeOrder() {
         // todo do sth and close order
-        Log.i(TAG, "订单已完成");
+        Log.i(TAG, "露漏碌楼脪脩脥锚鲁脡");
     }
 }
